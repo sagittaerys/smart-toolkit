@@ -12,17 +12,31 @@
       "resizeMode": "contain",
       "backgroundColor": "#0F0F0F"
     },
-    "assetBundlePatterns": ["**/*"],
-    "ios": { "supportsTablet": false },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#0F0F0F"
-      }
+      },
+      "package": "com.sagittaerys.smarttoolkit"
     },
-    "plugins": ["expo-router", "expo-font"],
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1b8c5bbd-d86c-4bb4-b0e6-58b99b33d3e9"
+      }
     }
   }
 }
