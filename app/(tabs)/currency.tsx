@@ -29,10 +29,11 @@ export default function CurrencyScreen() {
   }
 
   const result =
-    rates && amount
-      ? convertCurrency(parseFloat(amount), 1, rates[toCurrency])
-      : null;
+  rates && amount
+    ? parseFloat(amount) * (rates[toCurrency] ?? 1)
+    : null;
 
+    
   return (
     <SafeAreaView style={s.safe}>
       <ScrollView contentContainerStyle={s.container}>
