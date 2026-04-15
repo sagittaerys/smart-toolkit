@@ -86,7 +86,7 @@ smart-toolkit/
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/smart-toolkit.git
+git clone https://github.com/sagittaerys/smart-toolkit.git
 cd smart-toolkit
 
 # Install dependencies
