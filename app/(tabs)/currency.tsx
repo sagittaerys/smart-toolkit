@@ -5,7 +5,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors, Spacing, FontSize, Radius } from "../../constants/theme";
-import { fetchRates, convertCurrency } from "../../lib/currency";
+import { fetchRates } from "../../lib/currency";
 import { popularCurrencies } from "../../constants/currencies";
 
 export default function CurrencyScreen() {
